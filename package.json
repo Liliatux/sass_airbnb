@@ -1,0 +1,22 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liliatux/sass_airbnb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liliatux/sass_airbnb/issues"
+  },
+  "homepage": "https://github.com/Liliatux/sass_airbnb#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
