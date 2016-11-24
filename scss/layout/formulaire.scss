@@ -1,0 +1,48 @@
+$pink-color: #f08080;
+$white-color: #fffafa;
+$border-grey: solid grey;
+$inline: inline-block;
+$block: block;
+
+form {
+	display: flex;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: $border-grey;
+	border-radius: 0.3em;
+
+	.form {
+		display: $inline;
+		height: 5em;
+		flex: 1;
+		padding: 1%;
+	}
+
+	.border {
+		outline: $border-grey;
+	}
+
+	label {
+		display: $block;
+	}
+
+	input {
+		height: 3em;
+		width: 48%;
+	}
+
+	select {
+		height: 3em;
+		width: 60%;
+
+	}
+
+	button {
+		background-color: $pink-color;
+		border-radius: 0.3em;
+		height: 3em;
+		width: 35%;
+		font-size: 1em;
+		color: $white-color;
+	}
+}

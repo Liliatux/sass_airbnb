@@ -1,0 +1,47 @@
+$inline: inline-block;
+$white-color: #fffafa;
+$size: 2em;
+
+header {
+	height: 35em;
+	width: 100%;
+	background-image: url("http://placehold.it/1200x400");
+	
+	.menu {
+		position: absolute;
+		right: 0;
+
+		li {
+			display: $inline;
+			list-style: none;
+			margin-top: 1em;
+			margin-right: 2em;
+		}
+
+		a {
+			text-decoration: none;
+			color: $white-color;
+		}
+	}
+	
+	.title {
+		position: absolute;
+		margin-top: 5%;
+		margin-left: 20%;
+		width: 40%;
+		padding: 1%;
+		font-size: $size;
+		color: $white-color;
+
+		button {
+			display: block;
+			margin-top: 5%;
+			padding: 2% 5% 2% 5%;
+			border-radius: 2em;
+			background: transparent;
+			font-size: 0.5em;
+			border: solid $white-color;
+			color: $white-color;
+		}
+	}
+}

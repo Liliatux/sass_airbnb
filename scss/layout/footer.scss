@@ -1,15 +1,18 @@
+$inline: inline-block;
+$block: block;
+
 footer {
 	border-top: solid black 1px;
 	display: flex;
 	padding: 2%;
 
 	div {
-		display: inline-block;
+		display: $inline;
 		margin: 0 auto;
 		max-width: 25%;
 
 		select {
-			display: block;
+			display: $block;
 			height: 3em;
 			width: 10em;
 			margin: 1em;
