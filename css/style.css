@@ -1,7 +1,9 @@
 header {
   height: 35em;
   width: 100%;
-  background-image: url("http://placehold.it/1200x400"); }
+  background-image: url("/image/background.jpg");
+  background-attachment: fixed;
+  background-size: 95em 35em; }
   header .menu {
     position: absolute;
     right: 0; }
@@ -20,7 +22,7 @@ header {
     width: 40%;
     padding: 1%;
     font-size: 2em;
-    color: #fffafa; }
+    color: #696969; }
     header .title button {
       display: block;
       margin-top: 5%;
