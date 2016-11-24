@@ -6,13 +6,17 @@ footer {
 	div {
 		display: inline-block;
 		margin: 0 auto;
-		max-width: 200px;
+		max-width: 25%;
 
 		select {
 			display: block;
 			height: 3em;
 			width: 10em;
 			margin: 1em;
+			color: blue;
+			background-color: transparent;
+			font-size: 0.9em;
+			padding: 3%;
 		}
 
 		ul {
