@@ -1,7 +1,7 @@
 header {
   height: 35em;
   width: 100%;
-  background-image: url("/image/background.jpg");
+  background-color: black;
   background-attachment: fixed;
   background-size: 95em 35em; }
   header .menu {
@@ -29,7 +29,7 @@ header {
     width: 40%;
     padding: 1%;
     font-size: 2em;
-    color: #696969; }
+    color: #fffafa; }
     header .title button {
       display: block;
       margin-top: 5%;
