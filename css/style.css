@@ -15,6 +15,13 @@ header {
     header .menu a {
       text-decoration: none;
       color: #fffafa; }
+  header .menu2 {
+    display: none; }
+  @media screen and (max-width: 800px) {
+    header .menu {
+      display: none; }
+    header .menu2 {
+      display: block; } }
   header .title {
     position: absolute;
     margin-top: 5%;
@@ -88,6 +95,12 @@ form {
     width: 35%;
     font-size: 1em;
     color: #fffafa; }
+
+.icon {
+  float: left;
+  margin: 2em;
+  width: 2em;
+  height: 2em; }
 
 body {
   -webkit-box-sizing: border-box;

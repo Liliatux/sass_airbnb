@@ -8,7 +8,7 @@ header {
 	background-image: url('/image/background.jpg');
 	background-attachment: fixed;
 	background-size: 95em 35em;
-
+	
 	.menu {
 		position: absolute;
 		right: 0;
@@ -23,6 +23,20 @@ header {
 		a {
 			text-decoration: none;
 			color: $white-color;
+		}
+	}
+
+	.menu2 {
+		display: none;
+	}
+
+	@media screen and (max-width: 800px){
+		.menu {
+			display: none;
+		}
+
+		.menu2 {
+			display: block;
 		}
 	}
 	
